@@ -1,0 +1,10 @@
+[
+  {
+    "id": "nas",
+    "name": "NAS",
+    "group": "tailnet",
+    "place": "Home",
+    "ssh": "monitor@nas.example",
+    "key": "~/.ssh/overseer_pull"
+  }
+]

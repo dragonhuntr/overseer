@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# hub state and secrets (created on the hub machine)
+.env
+data/
+hub.log
+pull.json
+scripts/run-hub.sh
+
+.DS_Store
+.playwright-mcp/

@@ -1,0 +1,36 @@
+{
+  "name": "overseer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A small self-hosted dashboard for your machines: CPU, memory, disks, GPUs, CI runners and AI subscription usage.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "hub": "bun run server/index.ts",
+    "deploy": "sh scripts/deploy-hub.sh"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.0",
+    "@types/bun": "1.1.13",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4",
+    "tailwindcss": "^4.2.0",
+    "typescript": "5.6.3",
+    "vite": "^6"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@ui-sdk/core": "0.1.0-beta.2",
+    "@ui-sdk/react": "0.1.0-beta.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.72.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0"
+  }
+}

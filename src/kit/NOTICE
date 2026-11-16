@@ -1,0 +1,5 @@
+Parts of this directory (the component structure and control styles) are adapted from opendesk
+(https://github.com/useopendesk/opendesk), Copyright the opendesk authors, licensed under the Apache License,
+Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+Changes: cut down to the components this dashboard uses, rewritten, and restyled.
